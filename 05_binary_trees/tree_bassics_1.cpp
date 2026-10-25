@@ -65,6 +65,6 @@ int main(){
 
     //Fix:
     root = nullptr; // The pointer is now officially empty
-    //Now, the following will cause an
+    //Now, the following will cause an exception:
     std::cout << "The root's data: " << root->data << std::endl;
 }
